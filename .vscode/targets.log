@@ -1,0 +1,330 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for i686-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Fri Aug 26 10:45:04 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+PLATFORMIO_IDE = 2.5.2
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/archi/Documents/GitHub/graphics-interface
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"fr","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.1\bin;
+# environment
+ONEDRIVE = C:\Users\archi\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\archi\AppData\Local\Temp
+# environment
+DOXYGEN = C:\Program Files\doxygen\bin
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\archi\AppData\Local\GitHubDesktop\app-3.0.6
+# default
+MAKE_HOST := i686-w64-mingw32
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+GHCUP_INSTALL_BASE_PREFIX = C:\
+# environment
+LC_ALL = C
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\archi
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14392_QOAHESDGLMNPWXFS
+# environment
+COMPUTERNAME = DESKTOP-NBBU7FN
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = archi
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\archi\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-NBBU7FN
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-NBBU7FN
+# environment
+MAKELEVEL := 0
+# environment
+PLATFORMIO_PATH = C:\Users\archi\.platformio\python3;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\mingw-w64\bin;C;C;C:\Program Files\Graphviz\bin;C:\Program Files\doxygen\bin;C:\Users\archi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\archi\AppData\Local\Programs\Python\Python39\;C:\Users\archi\AppData\Local\Microsoft\WindowsApps;C:\Users\archi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\archi\AppData\Local\GitHubDesktop\bin;C:\Users\archi\Documents\Ordi\Technology\GSDC\flutter\bin;C:\Users\archi\.dotnet\tools;C:\iverilog\bin;C:\iverilog\gtkwave\bin;C:\Users\archi\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files (x86)\Vim\vim90;;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\mingw-w64\bin;C;C;C:\Program Files\Graphviz\bin;C:\Program Files\doxygen\bin;C:\Users\archi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\archi\AppData\Local\Programs\Python\Python39\;C:\Users\archi\AppData\Local\Microsoft\WindowsApps;C:\Users\archi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\archi\AppData\Local\GitHubDesktop\bin;C:\Users\archi\Documents\Ordi\Technology\GSDC\flutter\bin;C:\Users\archi\.dotnet\tools;C:\iverilog\bin;C:\iverilog\gtkwave\bin;C:\Users\archi\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files (x86)\Vim\vim90;
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\mingw-w64\bin;C;C;C:\Program Files\Graphviz\bin;C:\Program Files\doxygen\bin;C:\Users\archi\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\archi\AppData\Local\Programs\Python\Python39\;C:\Users\archi\AppData\Local\Microsoft\WindowsApps;C:\Users\archi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\archi\AppData\Local\GitHubDesktop\bin;C:\Users\archi\Documents\Ordi\Technology\GSDC\flutter\bin;C:\Users\archi\.dotnet\tools;C:\iverilog\bin;C:\iverilog\gtkwave\bin;C:\Users\archi\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files (x86)\Vim\vim90;
+# environment
+LOCAL_GIT_DIRECTORY = C:\Users\archi\AppData\Local\GitHubDesktop\app-3.0.6\resources\app\git
+# default
+MAKE_VERSION := 4.2.1
+# environment
+__PSLOCKDOWNPOLICY = 0
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\archi\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\7b8be9034ae4f76e78b2c0d585f4cdf5-1.70.2-main-sock
+# environment
+HOMEPATH = \Users\archi
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\archi\AppData\Roaming
+# environment
+TEMP = C:\Users\archi\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+CONFIGSETROOT = C:\WINDOWS\ConfigSetRoot
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = a502
+# default
+.RECIPEPREFIX := 
+# makefile
+.DEFAULT_GOAL := all
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 14392
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-NBBU7FN
+# variable set hash-table stats:
+# Load=102/1024=10%, Rehash=0, Collisions=22/126=17%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/archi/Documents/GitHub/graphics-interface, mtime 1661531268): 22 files, no impossibilities.
+
+# 22 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+link:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 7):
+	g++ main.o Game.o -o game -L"C:\Users\archi\Documents\Ordi\Technology\coding\c++\lib\SFML-2.5.1\lib" -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lopengl32 -lfreetype -lwinmm -lgdi32 -mwindows -lsfml-main
+
+all: compile link
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-25 15:45:02
+#  File has been updated.
+#  Successfully updated.
+
+compile:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := compile
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 4):
+	g++ -c main.cpp Game.cpp -I"C:\Users\archi\Documents\Ordi\Technology\coding\c++\lib\SFML-2.5.1\include" -DSFML_STATIC
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 10):
+	del *.o
+
+cleanA:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 13):
+	del *.o
+	del *.exe
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/24=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 29 / storage = 333 B / avg = 11 B
+# current buf: size = 8174 B / used = 333 B / count = 29 / avg = 11 B
+
+# strcache performance: lookups = 41 / hit rate = 29%
+# hash-table stats:
+# Load=29/8192=0%, Rehash=0, Collisions=1/41=2%
+# Finished Make data base on Fri Aug 26 10:45:04 2022
+
+ 

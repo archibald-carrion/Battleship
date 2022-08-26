@@ -7,23 +7,13 @@
 #include <SFML/Audio.hpp>
 #include <SFML/Network.hpp>
 
-#define h HEIGHT
-#define w WIDTH
+#define HEIGHT 400
+#define WIDTH 600
 #define maxFPS 60
 
 class Game
 {
 private:
-    /*
-     * Dimension is a struct used to store 2 const unsigned int:
-     * HEIGHT and WIDTH, both represent the constante value of the window dimension
-     */
-    struct Dimension
-    {
-        const unsigned int HEIGHT = 600;
-        const unsigned int WIDTH = 1000;
-    };
-
     // Game class private functions
     void initVariable();
     void initWindow();
@@ -34,7 +24,6 @@ private:
     sf::VideoMode videoMode;
     sf::Event event;
     sf::RectangleShape enemy;
-    Dimension *dimension;
 
 public:
 

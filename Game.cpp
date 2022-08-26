@@ -8,7 +8,6 @@ Game::Game()
     this->initVariable();
     this->initWindow();
     this->initEnemies();
-    this->dimension = new Dimension();
 }
 
 /**
@@ -38,9 +37,7 @@ void Game::initVariable()
  */
 void Game::initWindow()
 {
-    this->videoMode.height = dimension->h;
-    this->videoMode.width = dimension->w;
-
+    this->videoMode.height = HEIGHT; this->videoMode.width = WIDTH; // give right dimension to the videoMode
     this->window = new sf::RenderWindow(this->videoMode, "Video game", sf::Style::Titlebar | sf::Style::Close);
     this->window->setFramerateLimit(60);
 }
