@@ -40,10 +40,18 @@ void Game::initWindow()
     this->window = new sf::RenderWindow(this->videoMode, "Video game", sf::Style::Titlebar | sf::Style::Close);
     this->window->setFramerateLimit(60);
     // add sprite --> maps  
-    sf::Image mainMenu; // mainMenu is the first window shown to the user
-    if (!mainMenu.loadFromFile("")){
+    // sf::Image mainMenu; // mainMenu is the first window shown to the user
+   //  if (!mainMenu.loadFromFile("src/map.tga")){
         // error -> cannot load sprite from file
+   // }
+    sf::Texture mainMenuTexture;
+    if (!mainMenuTexture.loadFromFile("src/map.png")){
+        // error -> cannot load texture
     }
+    sf::Sprite mainMenuSprite;
+    mainMenuSprite.setTexture(mainMenuTexture);
+    this->window->draw(mainMenuSprite);
+
 }
 
 /**
@@ -111,10 +119,10 @@ void Game::pollEvents()
  */
 void Game::render()
 {
-    this->window->clear(sf::Color::Red);
+   // this->window->clear(sf::Color::Red);
 
     // DRAW
-    this->window->draw(this->enemy);
+   // this->window->draw(this->enemy);
 
     this->window->display();
 }
