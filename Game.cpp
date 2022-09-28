@@ -7,7 +7,7 @@ Game::Game()
 {
     this->initVariable();
     this->initWindow();
-    this->initEnemies();
+    // this->initEnemies();
 }
 
 /**
@@ -20,8 +20,6 @@ Game::~Game()
 
 /**
  * @brief function description
- * @param param1 param1 description
- * @param param2 param2 description
  * @return function's return value description
  */
 void Game::initVariable()
@@ -37,9 +35,15 @@ void Game::initVariable()
  */
 void Game::initWindow()
 {
-    this->videoMode.height = HEIGHT; this->videoMode.width = WIDTH; // give right dimension to the videoMode
+    this->videoMode.height = HEIGHT;
+    this->videoMode.width = WIDTH; // give right dimension to the videoMode
     this->window = new sf::RenderWindow(this->videoMode, "Video game", sf::Style::Titlebar | sf::Style::Close);
     this->window->setFramerateLimit(60);
+    // add sprite --> maps  
+    sf::Image mainMenu; // mainMenu is the first window shown to the user
+    if (!mainMenu.loadFromFile("")){
+        // error -> cannot load sprite from file
+    }
 }
 
 /**
@@ -48,6 +52,7 @@ void Game::initWindow()
  * @param param2 param2 description
  * @return function's return value description
  */
+/*
 void Game::initEnemies()
 {
 
@@ -56,6 +61,7 @@ void Game::initEnemies()
     this->enemy.setOutlineColor(sf::Color::Black);
     this->enemy.setOutlineThickness(5.f);
 }
+*/
 
 /**
  * @brief function description
@@ -67,7 +73,6 @@ void Game::update()
 {
     // event polling
     this->pollEvents();
-    
 }
 
 /**
@@ -110,7 +115,7 @@ void Game::render()
 
     // DRAW
     this->window->draw(this->enemy);
-   
+
     this->window->display();
 }
 

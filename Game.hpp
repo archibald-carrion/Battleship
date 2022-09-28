@@ -7,8 +7,8 @@
 #include <SFML/Audio.hpp>
 #include <SFML/Network.hpp>
 
-#define HEIGHT 400
-#define WIDTH 600
+#define HEIGHT 720
+#define WIDTH 1480
 #define maxFPS 60
 
 class Game
@@ -24,13 +24,17 @@ private:
     sf::VideoMode videoMode;
     sf::Event event;
     sf::RectangleShape enemy;
+    int state = 0;
+    // 0 -> main menu
+    // 1 -> j1
+    // 2 -> j2
+    // 3 -> menu between 2 players boards
 
 public:
 
     // Game class default constructor and desctructor
     Game();
     ~Game();
-
     // Game class public functions
     void update();
     void render();
