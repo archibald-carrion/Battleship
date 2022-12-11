@@ -1,14 +1,15 @@
 all: compile link
 
 compile:
-	g++ -c main.cpp Game.cpp -I"C:\Users\archi\Documents\Ordi\Technology\coding\c++\lib\SFML-2.5.1\include" -DSFML_STATIC
+	g++ -c main.cc Game.cc GameFunctions.cc Player.cc functions.s Board.cc vector.s
 
 link:
-	g++ main.o Game.o -o game -L"C:\Users\archi\Documents\Ordi\Technology\coding\c++\lib\SFML-2.5.1\lib" -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lopengl32 -lfreetype -lwinmm -lgdi32 -mwindows -lsfml-main
+	g++ main.o Game.o GameFunctions.o Player.o functions.o Board.o vector.o -o game.out -lsfml-graphics -lsfml-window -lsfml-system
 
 clean:
 	del *.o
 
-cleanA:
+cleanAll:
 	del *.o
 	del *.exe
+	del *.out
