@@ -1,7 +1,7 @@
 # Battleship
 
 ## Team members
-+ Alberto González
++ [Alberto González](https://github.com/albgondiga)
 + [Fabián Vega Meza](https://github.com/Fabian-Vega)
 + [Luis David Solano Santamaría](https://github.com/GoninDS)
 + [Archibald Carrion](https://github.com/archibald-carrion)
