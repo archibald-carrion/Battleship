@@ -1,5 +1,8 @@
 # Battleship
 
+## Screenshots
+
+
 ## Team members
 + [Alberto González](https://github.com/albgondiga)
 + [Fabián Vega Meza](https://github.com/Fabian-Vega)
