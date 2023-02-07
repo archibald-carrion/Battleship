@@ -1,7 +1,7 @@
 # Battleship
 
 ## Screenshots
-
+![main menu screenshot](https://github.com/archibald-carrion/Battleship/blob/main/screenshot_main_menu.png)
 
 ## Team members
 + [Alberto González](https://github.com/albgondiga)
