@@ -2,6 +2,8 @@
 
 ## Screenshots
 ![main menu screenshot](https://github.com/archibald-carrion/Battleship/blob/main/screenshot_main_menu.png)
+![player positioning ships](https://github.com/archibald-carrion/Battleship/blob/main/screenshot0.png)
+![player attacking opponent screenshot](https://github.com/archibald-carrion/Battleship/blob/main/screenshot1.png)
 
 ## Team members
 + [Alberto González](https://github.com/albgondiga)
